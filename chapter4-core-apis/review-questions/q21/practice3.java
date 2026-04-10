@@ -1,6 +1,6 @@
 // #### Immutable
 // An object cannot be changed after creation
-// Instedad of mdifying it -> methods return a new object
+// Instedad of modifying it -> methods return a new object
 //
 // - java.time package:
 // LocalDate
@@ -45,4 +45,4 @@
 // StringBuffer
 // ArraysList
 // HasMap
-// Date (old API)
+// Date ( old API)// Date (old API)
