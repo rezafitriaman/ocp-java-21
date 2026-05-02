@@ -1,0 +1,2 @@
+Protected method in BaseClass
+Protected method in BaseClass

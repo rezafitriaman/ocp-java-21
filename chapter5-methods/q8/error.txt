@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.IllegalAccessError: class package1.table tried to access method 'void package1.BaseClass.packagePrivateMethod()' (package1.table is in unnamed module of loader com.sun.tools.javac.launcher.Main$MemoryClassLoader @80169cf; package1.BaseClass is in unnamed module of loader 'app')
+	at package1.table.accessBaseClassMethod(table.java:7)
+	at package1.table.main(table.java:10)
