@@ -1,0 +1,24 @@
+// What is the output of the following code?
+class Reptile {
+    {System.out.print("A");}
+    public Reptile(int hatch) {}
+    void layEggs() {
+        System.out.print("Reptile");
+    } }
+public class Lizard extends Reptile {
+    static {System.out.print("B");}
+    public Lizard(int hatch) {}
+    public final void layEggs() {
+        System.out.print("Lizard");
+    }
+    public static void main(String[] args) {
+        var reptile = new Lizard(1);
+        reptile.layEggs();
+    } }
+
+// A. AALizard
+// B. BALizard
+// C. BLizardA
+// D. ALizard
+// E. The code will not compile because of line 3.
+// F. None of the above.

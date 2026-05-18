@@ -1,0 +1,23 @@
+// Which of the vollowing completes the constructor so that this code print out 50?
+class Speedster {
+    int numSots;
+}
+public class Cheetah extends Speedster {
+    int numSpots;
+
+    public Cheetah(int numSpots) {
+        // INSERT CODE HERE
+    }
+    public static void main(String[] args) {
+        Speedster s = new Cheetah(50);
+        System.out.print(s.numSpots);
+    }
+}
+
+// A. numSpots = numSpots;
+// B. numSpots = this.numSpots;
+// C. this.numSpots = numSpots;
+// D. numSpots = super.numSpots;
+// E. super.numSpots = numSpots;
+// F. The code does not compile regardless of the code inserted into the constructor.
+// G. None of the above.

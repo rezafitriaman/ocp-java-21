@@ -23,9 +23,9 @@ public class Run { // pub class
     }
 }
 
-// A. The code prints out 2-4-. // This one
+// A. The code prints out 2-4-. // This one;
 // B. The code prints out 3-4-.
 // C. The code prints out 4-2-.
-// D. The code prints out 4-4-.
+// D. The code prints out 5-4-.
 // E. The code prints 3-4- if your remove the method static void execute(int num). // this one
 // F. The code prints 4-4- if your remove the method static void execute(int num).
